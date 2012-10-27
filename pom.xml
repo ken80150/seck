@@ -5,7 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.pcwerk</groupId>
   <artifactId>seck</artifactId>
-  <version>0.0.4-rc</version>
+  <version>0.0.5-dev</version>
   <packaging>pom</packaging>
 
   <properties>
@@ -280,6 +280,7 @@
   <modules>
     <module>seck-lib</module>
     <module>seck-app</module>
+    <module>seck-cluster</module>
     <module>seck-web</module>
   </modules>
 </project>
