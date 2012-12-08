@@ -10,12 +10,9 @@ function search()
 }
 function showResults(searched){
 	 alert(searched);
-	 $.ajax({  
-		  url: "results.jsp",   
-		  success: function() {  
-			  $('#searched-item').append(searched);
-			  
-		  }  
-		});  
+	 
+	 $.getJSON('sample.json', function(data) {
+		 alert("Data Loaded!");
+		});
 	
 }
