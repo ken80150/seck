@@ -65,7 +65,7 @@
         
         <!-- Search results begin -->
         <div class="container-fluid">
-        	<ol>
+        	<ul class="results-list">
         		<li class="row-fluid">
         			<div class="offset1 span11">
         				<h3>
@@ -185,7 +185,7 @@
         				</p>
         			</div>
         		</li>
-        	</ol>
+        	</ul>
         	
         	<div class="row-fluid">
 		        <div class="pagination pagination-centered span12">

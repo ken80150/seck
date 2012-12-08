@@ -4,7 +4,11 @@
    Author's custom styles
    ========================================================================== */
 
-
+.results-list{
+	list-style:none;
+	padding:0px;
+	margin:0px;
+}
 
 
 
