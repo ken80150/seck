@@ -68,121 +68,81 @@
         	<ul class="results-list">
         		<li class="row-fluid">
         			<div class="offset1 span11">
-        				<h3>
-        					<a href="#">Result 1</a>
-        					<small>http://resulturl.com/example</small>
-        				</h3>
-        				<p>
-        					Relevancy score: 85
-        				</p>
+        				<h3 class="result-href"><a href="#">Result 1</a></h3>
+        				<span class="url">http://resulturl.com/example</span>
+        				<p>Relevancy score: 85</p>
         			</div>
         		</li>
         		
         		<li class="row-fluid">
         			<div class="offset1 span11">
-        				<h3>
-        					<a href="#">Result 2</a>
-        					<small>http://resulturl.com/example</small>
-        				</h3>
-        				<p>
-        					Relevancy score: 75
-        				</p>
+        				<h3 class="result-href"><a href="#">Result 2</a></h3>
+        				<span class="url">http://resulturl.com/example</span>
+        				<p>Relevancy score: 75</p>
         			</div>
         		</li>
         		
         		<li class="row-fluid">
         			<div class="offset1 span11">
-        				<h3>
-        					<a href="#">Result 3</a>
-        					<small>http://resulturl.com/example</small>
-        				</h3>
-        				<p>
-        					Relevancy score: 65
-        				</p>
+        				<h3 class="result-href"><a href="#">Result 3</a></h3>
+        				<span class="url">http://resulturl.com/example</span>
+        				<p>Relevancy score: 65</p>
         			</div>
         		</li>
         		
         		<li class="row-fluid">
         			<div class="offset1 span11">
-        				<h3>
-        					<a href="#">Result 4</a>
-        					<small>http://resulturl.com/example</small>
-        				</h3>
-        				<p>
-        					Relevancy score: 55
-        				</p>
+        				<h3 class="result-href"><a href="#">Result 4</a></h3>
+        				<span class="url">http://resulturl.com/example</span>
+        				<p>Relevancy score: 55</p>
         			</div>
         		</li>
         		
         		<li class="row-fluid">
         			<div class="offset1 span11">
-        				<h3>
-        					<a href="#">Result 5</a>
-        					<small>http://resulturl.com/example</small>
-        				</h3>
-        				<p>
-        					Relevancy score: 45
-        				</p>
+        				<h3 class="result-href"><a href="#">Result 5</a></h3>
+        				<span class="url">http://resulturl.com/example</span>
+        				<p>Relevancy score: 45</p>
         			</div>
         		</li>
         		
         		<li class="row-fluid">
         			<div class="offset1 span11">
-        				<h3>
-        					<a href="#">Result 6</a>
-        					<small>http://resulturl.com/example</small>
-        				</h3>
-        				<p>
-        					Relevancy score: 35
-        				</p>
+        				<h3 class="result-href"><a href="#">Result 6</a></h3>
+        				<span class="url">http://resulturl.com/example</span>
+        				<p>Relevancy score: 35</p>
         			</div>
         		</li>
         		
         		<li class="row-fluid">
         			<div class="offset1 span11">
-        				<h3>
-        					<a href="#">Result 7</a>
-        					<small>http://resulturl.com/example</small>
-        				</h3>
-        				<p>
-        					Relevancy score: 25
-        				</p>
+        				<h3 class="result-href"><a href="#">Result 7</a></h3>
+        				<span class="url">http://resulturl.com/example</span>
+        				<p>Relevancy score: 25</p>
         			</div>
         		</li>
         		
         		<li class="row-fluid">
         			<div class="offset1 span11">
-        				<h3>
-        					<a href="#">Result 8</a>
-        					<small>http://resulturl.com/example</small>
-        				</h3>
-        				<p>
-        					Relevancy score: 15
-        				</p>
+        				<h3 class="result-href"><a href="#">Result 8</a></h3>
+        				<span class="url">http://resulturl.com/example</span>
+        				<p>Relevancy score: 15</p>
         			</div>
         		</li>
         		
         		<li class="row-fluid">
         			<div class="offset1 span11">
-        				<h3>
-        					<a href="#">Result 9</a>
-        					<small>http://resulturl.com/example</small>
-        				</h3>
-        				<p>
-        					Relevancy score: 5
-        				</p>
+        				<h3 class="result-href"><a href="#">Result 9</a></h3>
+        				<span class="url">http://resulturl.com/example</span>
+        				<p>Relevancy score: 5</p>
         			</div>
         		</li>
         		
         		<li class="row-fluid">
         			<div class="offset1 span11">
-        				<h3>
-        					<a href="#">Result 10</a>
-        					<small>http://resulturl.com/example</small>
-        				</h3>
-        				<p>
-        					Relevancy score: 1
-        				</p>
+        				<h3 class="result-href"><a href="#">Result 10</a></h3>
+        				<span class="url">http://resulturl.com/example</span>
+        				<p>Relevancy score: 1</p>
         			</div>
         		</li>
         	</ul>
