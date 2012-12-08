@@ -50,9 +50,9 @@ public class HtmlExtractor extends Extractor {
 			e.printStackTrace();
 		} 
         
-        //normalize the links found
+       //normalize the links found from page
         List<Link> normalizedLinks = new ArrayList<Link>();
-		URL baseUrl = URLNormalizationUtil.getBaseUrl(sourceUrl);
+ 		URL baseUrl = URLNormalizationUtil.getBaseUrl(sourceUrl);
         for(Link aLink : linkHandler.getLinks() )
         {
     	   if(aLink.isAnchor())
