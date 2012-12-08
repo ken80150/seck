@@ -51,7 +51,7 @@
         <div class="container-fluid">
         	<div class="row-fluid">
         		<div class="span-12 well">
-        				Page 1 of 23476 documents matched for "the term that was searched"
+        				Page 1 of 23476 documents matched for <span id="searched-item"></span>
 				</div>
         	</div>
         	
