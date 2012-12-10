@@ -33,9 +33,11 @@ public class HtmlExtractor extends Extractor {
 	
 	public WebDocument extract(URL sourceUrl)
 	{	
-		WebDocument docInfo = new WebDocument();
+	WebDocument docInfo = new WebDocument();
         LinkContentHandler linkHandler = new LinkContentHandler();
-        ContentHandler textHandler = new BodyContentHandler();
+        int writeLimit = 10 * 1024 * 1024;
+        ContentHandler textHandler = new BodyContentHandler(writeLimit);
+
         ToHTMLContentHandler toHTMLHandler = new ToHTMLContentHandler();
                         
         TeeContentHandler teeHandler = new TeeContentHandler(linkHandler, textHandler, toHTMLHandler);
